@@ -573,19 +573,6 @@ python scripts/optimize_hyperparameters.py \
 
 ---
 
-## Citation
-
-If you use StreamDIAM in your research, please cite:
-```bibtex
-@inproceedings{victor2026streamdiam,
-  title={Real-Time Illicit Account Detection Over Temporal Cryptocurrency Transaction Graphs with Adaptive Indexing},
-  author={Victor, Kombou and Xia, Qi and Gao, Jianbin and Xia, Hu and Richard, Befoum Stephane and Leaticia, Kuiche Sop Brinda},
-  booktitle={2026 IEEE 41st International Conference on Data Engineering (ICDE)},
-  year={2026},
-  organization={IEEE}
-}
-```
-
 ---
 
 ## License
@@ -600,15 +587,12 @@ For questions regarding paper reproduction or technical issues:
 
 - **Corresponding Author:** Jianbin Gao (gaojb@uestc.edu.cn)
 - **Lead Developer:** Kombou Victor (kombouvictor5@gmail.com)
-- **GitHub Issues:** https://github.com/[anonymous-repo]/StreamDIAM-ICDE2026/issues
 
 **Response Time:** We aim to respond to reproduction issues within 48 hours during the review period.
 
 ---
 
 ## Acknowledgments
-
-This research was supported by [FUNDING INFORMATION REDACTED FOR BLIND REVIEW].
 
 Computational resources provided by the High Performance Computing Center of UESTC.
 
@@ -627,7 +611,6 @@ This codebase is designed for complete reproducibility of all results presented 
 For questions about reproduction, please open a GitHub issue with the tag `[reproduction]`.
 
 ---
-
-**Last Updated:** January 2025  
+ 
 **Version:** 1.0.0  
 **Status:** ICDE 2026 Submission
