@@ -1,0 +1,20 @@
+# Conda environment for StreamDIAM, pinned to the versions this artifact was run
+# with (answers R1 O18). CPU is sufficient for the reference implementation and
+# all reproduction commands; a CUDA build of torch is optional and only speeds up
+# model training.
+name: streamdiam
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - numpy==2.5.3
+      - scipy==1.18.1
+      - scikit-learn==1.9.1
+      - matplotlib==3.11.2
+      - torch==2.15.0
+      # dev / test
+      - pytest
+      - pyflakes
+      - mypy
